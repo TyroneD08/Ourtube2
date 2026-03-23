@@ -30,17 +30,20 @@ export function Header() {
         </div>
       </div>
 
+       <button className={styles.loginBtn} aria-label="Inloggen">
+          Inloggen
+        </button>
+
+
+
       <div className={styles.right}>
         <button className={styles.moreBtn} aria-label="more options">
           <span className={styles.moreDot}></span>
-          <span className={styles.moreDot}></span>
+          <span className={styles.moreDot}></span> 
           <span className={styles.moreDot}></span>
         </button>
 
-        <button className={styles.loginBtn} aria-label="Inloggen">
-          <span className={styles.loginIcon}>◯</span>
-          Inloggen
-        </button>
+      
 
         <span className={styles.rightDivider}></span>
       </div>
